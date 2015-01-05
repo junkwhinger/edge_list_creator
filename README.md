@@ -27,6 +27,10 @@ So
 2. open Terminal and run the code.
 3. follow what the code says by typing the name of the targe csv file, and the type of edges you desire.
 4. A new file will be created with the prefix "done_"
+5. Open a text editor like SublimeText and delete an empty space before the first line.
+6. And SAVE WITH ENCODING > UTF-8.
+7. Open Gephi > NEW PROJECT > Import spreadsheet > select Edge
+8. Done!
 
 done!
 Thank you!
