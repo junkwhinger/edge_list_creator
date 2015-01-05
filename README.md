@@ -24,5 +24,10 @@ With the code I made here, by telling it what file you use, and what type of edg
 So
 
 1. put this python file into the same directory as your target csv file.
-2. open Terminal and type python edge_list_creator.py
+2. open Terminal and run the code.
+3. follow what the code says by typing the name of the targe csv file, and the type of edges you desire.
+4. A new file will be created with the prefix "done_"
+
+done!
+Thank you!
 
