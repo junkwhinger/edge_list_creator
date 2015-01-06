@@ -18,8 +18,7 @@ Banana, PineApple
 
 It's faster to do it manually, but if you have more than 30 items on one line, then it's kinda cumbersome.
 
-With the code I made here, by telling it what file you use, and what type of edge you want to make
-(either Directed or Undirected. you have to.) you can easily make an edge list. 
+With the code I made here, by telling it what file you use, you can easily make an edge list. 
 
 So
 
