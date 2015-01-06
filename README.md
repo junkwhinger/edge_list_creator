@@ -23,13 +23,14 @@ With the code I made here, by telling it what file you use, and what type of edg
 
 So
 
+0. Download "Convert Excel and csv files to networks (including dynamic!)" plugin from Gephi.
 1. put this python file into the same directory as your target csv file.
 2. open Terminal and run the code.
-3. follow what the code says by typing the name of the targe csv file, and the type of edges you desire.
+3. follow what the code says by typing the name of the targe csv file.
 4. A new file will be created with the prefix "done_"
-5. Open a text editor like SublimeText and delete an empty space before the first line.
-6. And SAVE WITH ENCODING > UTF-8.
-7. Open Gephi > NEW PROJECT > Import spreadsheet > select Edge
+5. And SAVE WITH ENCODING > UTF-8.
+6. Open Gephi > (with the given open menu) select the csv file that you've just changed.
+7. Select the type of edges (Directed or Undirected)
 8. Done!
 
 done!
