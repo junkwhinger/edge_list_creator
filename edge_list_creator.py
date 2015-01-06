@@ -4,12 +4,10 @@ def pairing(source):
 	result = []
 	for item1 in range(len(source)):
 		for item2 in range(item1+1, len(source)):
-			result.append([source[item1], source[item2],edgeType])
+			result.append([source[item1], source[item2]])
 	return result
 
 filename = raw_input('file name? ')
-
-edgeType = raw_input("edge type? Directed or Undirected? ")
 
 f = open (filename, 'rb')
 
@@ -29,6 +27,5 @@ new_filename = "done_" + filename
 
 with open(new_filename, 'wb') as csvfile:
     rowwriter = csv.writer(csvfile, delimiter=',', quotechar=' ')
-    rowwriter.writerow(['Source,Target,Type']) 
     for row in final_list:
     	rowwriter.writerow(row)
